@@ -35,7 +35,19 @@ const reviews = [
 
 // Solution
 function showReviewTotal (value : number) {
-    reviewTotalDisplay.innerHTML = 'review total ' + value.toString()
+  reviewTotalDisplay.innerHTML = 'review total ' + value.toString()
 }
 
 showReviewTotal(reviews.length)
+
+const you: {
+    userName: string;
+    isReturning: boolean;
+    age: number;
+    stayedAt: string[];
+} = {
+    userName: 'Boby',
+    isReturning: true,
+    age: 25,
+    stayedAt: ['Islamabad', 'E-11', Pakistan]
+}
